@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#2FFFB2
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+header{
+	display: block;
+	height: 40px;
+	background-color: #AC25FF;
+	
+	}
+footer{
+	display: block;
+	margin-top:0px;
+	height: 40px;
+	background-color: #AC25FF;
+}
+a{
+	padding-left: 55px;
+	padding-right: 55px;
+	margin-left:20px;
+	font-size: 25px;
+	text-align:center;
+	text-decoration: none;
+	color: #fff;	
+}
+
+a:hover {
+	color:#018ABE;
+}
+
+h1{
+	text-align:center;
+}
+	
+nav{
+	
+	display:block;
+	width: 450px;
+	height:30px;
+	padding-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav2{
+	display:block;
+	width: 200px;
+	height:30px;
+	padding-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.parallax_1{
+	background-image: url("over_main.jpg");
+	min-height: 709px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph_1{
+	height:200px;
+	background-color:#AC25FF;
+	font-size:30px; 
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	text-align: center;
+	scroll-behavior: smooth;
+	
+}
+
+
+.parallax_2{
+	background-image:url("over_gameplay.jpg");
+	min-height: 720px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph_2{
+	height:275px;
+	background-color:#AC25FF;
+	font-size:30px; 
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.parallax_3{
+	background-image: url("over_gameplay_2.jpg");
+	min-height:720px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph_3{
+	height: 280px;
+	background-color:#AC25FF;
+	font-size:30px; 
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom:35px;
+	text-align: left;
+}
+
+.p3{
+	width:700px;
+}
+iframe{
+	margin-top: -260px;
+}
+
+
+
+@media only screen and (max-width: 1250px){
+	.paragraph_1{
+		font-size: 26px;
+	}
+		.p3{
+		width:450px;
+	}
+	.paragraph_2{
+		font-size:26px;
+	}
+	.paragraph_3{
+		height: 400px;
+		font-size:26px;
+	}
+	footer{
+		height:40px;
+	}
+}
+
+
+
+@media only screen and (max-width: 962px){
+	
+	nav{
+	
+	display:block;
+	width:500px;
+	height:30px;
+	padding-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	a{
+	text-size: 20pt;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-decoration: none;
+	color: #fff;	
+}
+
+    .parallax_1{
+		background-attachment:inherit;
+		min-height: 300px;
+		background-size: cover;
+		margin-top: 0px;
+}
+	.paragraph_1{
+		
+		font-size: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 5px;
+	}
+	
+	.paragraph_2{
+		font-size: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 2px;
+	}
+	
+	.paragraph_3{
+		height:500px;
+		font-size: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.parallax_2{
+		background-attachment:inherit;
+		min-height: 300px;
+		background-size: cover;
+		margin-top: 0px;
+	}
+	
+	.parallax_3{
+		background-attachment:inherit;
+		min-height: 300px;
+		background-size: cover;
+		margin-top: 0px;
+	}
+	iframe{
+		margin-top:0px;
+		margin-left:auto;
+		margin-right:220px;
+	}
+	footer{
+		margin-top:0px
+	}
+	
+	}
+
+@media only screen and (max-width: 716px){
+	.p3{
+		width:auto;
+	}
+	iframe{
+		margin-right:35px;
+		align-self: center;
+	}
+	footer{
+		margin-top:0px
+	}
+	.paragraph_3{
+		height:400px
+	}
+}
+
